@@ -11,7 +11,7 @@ import { db } from "./config/firebase-config";
 import { getDocs, collection } from "firebase/firestore";
 import "./App.css"
 import UpdateMovie from "./pages/UpdateMovie";
-import ImageUpload from "./pages/ImageUpload";
+
 
 function App() {
      let [movies, setMovies] = useState([]);
